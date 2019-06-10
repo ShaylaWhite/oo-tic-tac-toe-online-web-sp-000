@@ -7,8 +7,7 @@ HOW TO PLAY:
 # want to put an "X" or an "O". The first turn is
 # always taken by "X".
 
-#!/usr/bin/env ruby
-require 'pry'
+
 
 # Load up the lib file containing all of the programming.
 require_relative '../lib/tic_tac_toe.rb'
