@@ -4,5 +4,7 @@ class TicTacToe
   end
   
   def self.WIN_COMBINATIONS
-    self
+   WIN_COMBINATIONS = [
+  [0,1,2], # Top row
+  [3,4,5]
 end
