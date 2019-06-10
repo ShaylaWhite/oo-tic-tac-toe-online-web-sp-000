@@ -47,12 +47,9 @@ class TicTacToe
       return true
     end
   end
- # accepts a position 
- checks position an returns if valid 
- false then returns nil
- ###
-def valid_move?(index)
   
+def valid_move?(index)
+  if (board[index]==" ")
 end
   
 end
