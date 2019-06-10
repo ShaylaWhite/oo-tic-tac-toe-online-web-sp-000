@@ -4,8 +4,9 @@ class TicTacToe
   end
   
   def WIN_COMBINATIONS
-WIN_COMBINATIONS = [
-  [0,1,2], # Top row
-  [3,4,5]
-end
+    WIN_COMBINATIONS =  [
+      [0,1,2], # Top row
+      [3,4,5]
+      ]
+  end
 end
