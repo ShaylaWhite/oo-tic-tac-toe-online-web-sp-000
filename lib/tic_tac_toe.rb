@@ -47,7 +47,12 @@ class TicTacToe
       return true
     end
   end
-
-def valid_move?
+ # accepts a position 
+ checks position an returns if valid 
+ false then returns nil
+ ###
+def valid_move?(index)
+  
+end
   
 end
