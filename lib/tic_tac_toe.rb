@@ -54,16 +54,25 @@ def valid_move?(index)
     end
   end
   
+  
+  # Method to allow recurring turns for the user.
   def turn
+    # Asks user for input.
     puts "Please enter 1-9:"
+    # Places the user's answer into the variable 'input'.
     input = gets.strip
+    # Uses the conversion method to place it into variable 'index'.
     index = input_to_index(input)
-    
+    # Goes through an if/else loop to check if move is valid.
     if valid_move?(index)
+      # Adds the player's input if valid.
       move(index, current_player)
+      # Displays the board back to the player in the CLI afterwards.
       display_board()
     else
+      # Recursively calls the turn method if an incorrect move is played.
       turn()
     end
   end
+
 end
