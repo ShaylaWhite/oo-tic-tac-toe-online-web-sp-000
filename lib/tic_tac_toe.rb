@@ -39,6 +39,15 @@ class TicTacToe
     @board[index] = current_player
   end
   
-  
+  def position_taken?(index)
+    # Tests for edge cases, eg. if board position has no space or is nil.
+    if (@board[index]==" " || @board[index]=="" || @board[index]==nil)
+      return false
+    elsif (@board[index]=="X" || @board[index]=="O")
+      return true
+    end
+  end
+
+def valid_move?
   
 end
